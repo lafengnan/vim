@@ -184,6 +184,7 @@ nnoremap <C-F2> :vert diffsplit
 map <F3> :NERDTree<CR>  
 "let g:winManagerWindowLayout='NERDTree|TagList'
 "nmap wm:WMToggle<cr>
+nmap wm :NERDTreeToggle<cr>
 "打开树状文件目录  
 map <C-F3> \be  
 :autocmd BufRead,BufNewFile *.dot map <F5> :w<CR>:!dot -Tjpg -o %<.jpg % && eog %<.jpg  <CR><CR> && exec "redr!"
